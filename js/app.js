@@ -39,7 +39,7 @@ function embaralha(lista) {
         
         // atribuição via destructuring
         [lista[indice - 1], lista[indiceAleatorio]] = 
-            [lista[indiceAleatorio], lista[indice - 1]];
+        [lista[indiceAleatorio], lista[indice - 1]];
     }
 }
 
